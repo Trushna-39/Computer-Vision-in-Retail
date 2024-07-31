@@ -702,3 +702,16 @@ p {
   }
 }
 /* End  Media Query For Desktop */
+
+.redirect {
+  background-color: white; /* Green */
+  border: none;
+  color: #555;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
