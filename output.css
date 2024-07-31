@@ -22,7 +22,7 @@
 
 ::before,
 ::after {
-  --tw-content: '';
+  --tw-content: "";
 }
 
 /*
@@ -44,9 +44,10 @@ html,
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -89,7 +90,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 /*
@@ -135,7 +136,8 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
   /* 1 */
   font-feature-settings: normal;
   /* 2 */
@@ -236,9 +238,9 @@ select {
 */
 
 button,
-input:where([type='button']),
-input:where([type='reset']),
-input:where([type='submit']) {
+input:where([type="button"]),
+input:where([type="reset"]),
+input:where([type="submit"]) {
   -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
@@ -285,7 +287,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-[type='search'] {
+[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -378,7 +380,8 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder, textarea::-moz-placeholder {
+input::-moz-placeholder,
+textarea::-moz-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
@@ -446,7 +449,9 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -456,19 +461,19 @@ video {
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -476,28 +481,28 @@ video {
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
-  --tw-contain-size:  ;
-  --tw-contain-layout:  ;
-  --tw-contain-paint:  ;
-  --tw-contain-style:  ;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+  --tw-contain-size: ;
+  --tw-contain-layout: ;
+  --tw-contain-paint: ;
+  --tw-contain-style: ;
 }
 
 ::backdrop {
@@ -510,19 +515,19 @@ video {
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -530,26 +535,292 @@ video {
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
-  --tw-contain-size:  ;
-  --tw-contain-layout:  ;
-  --tw-contain-paint:  ;
-  --tw-contain-style:  ;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+  --tw-contain-size: ;
+  --tw-contain-layout: ;
+  --tw-contain-paint: ;
+  --tw-contain-style: ;
+}
+
+
+/* Tailwind CSS for larger content fonts */
+.text-xl {
+  @apply text-xl md:text-2xl lg:text-3xl;
+}
+.text-3xl {
+  @apply text-3xl md:text-4xl lg:text-5xl;
+}
+.text-5xl {
+  @apply text-5xl md:text-6xl lg:text-7xl;
+}
+.font-semibold {
+  @apply font-semibold;
+}
+.leading-relaxed {
+  @apply leading-relaxed;
+}
+.list-inside {
+  @apply list-inside;
+}
+.list-disc {
+  @apply list-disc;
+}
+.space-y-2 {
+  @apply space-y-2;
+}
+.space-y-4 {
+  @apply space-y-4;
+}
+.space-y-6 {
+  @apply space-y-6;
+}
+.container {
+  @apply mx-auto px-6;
+}
+.mt-4 {
+  @apply mt-4;
+}
+.mt-8 {
+  @apply mt-8;
+}
+.mt-10 {
+  @apply mt-10;
+}
+.mt-12 {
+  @apply mt-12;
+}
+.mt-16 {
+  @apply mt-16;
+}
+.mt-20 {
+  @apply mt-20;
+}
+.bg-gray-100 {
+  @apply bg-gray-100;
+}
+.bg-gray-800 {
+  @apply bg-gray-800;
+}
+.text-white {
+  @apply text-white;
+}
+.text-gray-800 {
+  @apply text-gray-800;
+}
+.text-red-500 {
+  @apply text-red-500;
+}
+.bg-white {
+  @apply bg-white;
+}
+.px-6 {
+  @apply px-6;
+}
+.py-8 {
+  @apply py-8;
+}
+.py-16 {
+  @apply py-16;
+}
+.grid {
+  @apply grid;
+}
+.grid-cols-1 {
+  @apply grid-cols-1;
+}
+.md\\:grid-cols-3 {
+  @apply md:grid-cols-3;
+}
+.gap-6 {
+  @apply gap-6;
+}
+.rounded-lg {
+  @apply rounded-lg;
+}
+.hidden {
+  @apply hidden;
+}
+.md\\:hidden {
+  @apply md:hidden;
+}
+.md\\:flex {
+  @apply md:flex;
+}
+.flex {
+  @apply flex;
+}
+.items-center {
+  @apply items-center;
+}
+.justify-between {
+  @apply justify-between;
+}
+.justify-center {
+  @apply justify-center;
+}
+.space-x-6 {
+  @apply space-x-6;
+}
+.hover\\:text-red-500 {
+  @apply hover:text-red-500;
+}
+.underline {
+  @apply underline;
+}
+
+/* Tailwind CSS for Header */
+.fixed {
+  @apply fixed;
+}
+.top-0 {
+  @apply top-0;
+}
+.left-0 {
+  @apply left-0;
+}
+.w-full {
+  @apply w-full;
+}
+.z-50 {
+  @apply z-50;
+}
+.transition-all {
+  @apply transition-all;
+}
+.duration-300 {
+  @apply duration-300;
+}
+.bg-gray-800 {
+  @apply bg-gray-800;
+}
+.bg-opacity-90 {
+  @apply bg-opacity-90;
+}
+.mx-auto {
+  @apply mx-auto;
+}
+.px-4 {
+  @apply px-4;
+}
+.py-2 {
+  @apply py-2;
+}
+.max-w-screen-xl {
+  @apply max-w-screen-xl;
+}
+.text-3xl {
+  @apply text-3xl;
+}
+.font-bold {
+  @apply font-bold;
+}
+.text-white {
+  @apply text-white;
+}
+.text-red-500 {
+  @apply text-red-500;
+}
+.uppercase {
+  @apply uppercase;
+}
+.tracking-wide {
+  @apply tracking-wide;
+}
+.hover\:text-red-500:hover {
+  @apply hover:text-red-500;
+}
+.hidden {
+  @apply hidden;
+}
+.md\:flex {
+  @apply md:flex;
+}
+.items-center {
+  @apply items-center;
+}
+.space-x-6 {
+  @apply space-x-6;
+}
+.w-12 {
+  @apply w-12;
+}
+.h-12 {
+  @apply h-12;
+}
+.border-4 {
+  @apply border-4;
+}
+.rounded-full {
+  @apply rounded-full;
+}
+.relative {
+  @apply relative;
+}
+.cursor-pointer {
+  @apply cursor-pointer;
+}
+.transform {
+  @apply transform;
+}
+.scale-75 {
+  @apply scale-75;
+}
+.bg-white {
+  @apply bg-white;
+}
+.h-1 {
+  @apply h-1;
+}
+.w-8 {
+  @apply w-8;
+}
+.flex {
+  @apply flex;
+}
+.flex-col {
+  @apply flex-col;
+}
+.justify-center {
+  @apply justify-center;
+}
+.inset-0 {
+  @apply inset-0;
+}
+.animate-pulse {
+  @apply animate-pulse;
+}
+.h-screen {
+  @apply h-screen;
+}
+.space-y-6 {
+  @apply space-y-6;
+}
+.text-2xl {
+  @apply text-2xl;
+}
+.px-4 {
+  @apply px-4;
+}
+.py-2 {
+  @apply py-2;
+}
+.block {
+  @apply block;
 }
