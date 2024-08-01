@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="output.css">
+    <title>Web Design - B-Lead Technologies</title>
+  </head>
+
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+    <header id="header" class="fixed top-0 left-0 w-full z-50 transition-all duration-300">
+      <div class="header bg-gray-800 bg-opacity-90 w-full">
+        <div class="nav-bar flex items-center justify-between max-w-screen-xl mx-auto px-4 py-2">
+          <div class="brand">
+            <a href="../index1.html" class="text-3xl font-bold text-white"><span class="text-red-500">B-</span>Lead <span
+                class="text-red-500">T</span>echnologies</a>
+          </div>
+          <div class="nav-list hidden md:flex items-center space-x-6">
+            <a href="../index1.html#hero" class="text-white uppercase tracking-wide hover:text-red-500">Home</a>
+            <a href="../index1.html#services" class="text-white uppercase tracking-wide hover:text-red-500">Services</a>
+            <a href="../index1.html#projects" class="text-white uppercase tracking-wide hover:text-red-500">Applications</a>
+            <a href="../index1.html#about" class="text-white uppercase tracking-wide hover:text-red-500">About</a>
+            <a href="../index1.html#contact" class="text-white uppercase tracking-wide hover:text-red-500">Contact</a>
+          </div>
+          <div
+            class="hamburger md:hidden flex items-center justify-center w-12 h-12 border-4 border-white rounded-full relative cursor-pointer transform scale-75">
+            <div class="bar w-8 h-1 bg-white relative">
+              <div
+                class="bar-inner before:absolute before:content-[''] before:w-full before:h-full before:left-0 before:bg-white before:top-2 after:absolute after:content-[''] after:w-full after:h-full after:left-0 after:bg-white after:bottom-2">
+              </div>
+            </div>
+            <div class="hamburger-puls absolute inset-0 border-4 border-white rounded-full animate-pulse"></div>
+          </div>
+        </div>
+        <div
+          class="mobile-menu hidden md:hidden flex flex-col items-center justify-center w-full h-screen bg-gray-800 text-white">
+          <ul class="space-y-6 text-2xl">
+            <li><a href="../index1.html#hero" class="block px-4 py-2 hover:text-red-500">Home</a></li>
+            <li><a href="../index1.html#services" class="block px-4 py-2 hover:text-red-500">Services</a></li>
+            <li><a href="../index1.html#projects" class="block px-4 py-2 hover:text-red-500">Applications</a></li>
+            <li><a href="../index1.html#about" class="block px-4 py-2 hover:text-red-500">About</a></li>
+            <li><a href="../index1.html#contact" class="block px-4 py-2 hover:text-red-500">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Customer Analytics Use Case Section -->
+    <section id="customer-analytics" class="py-16 bg-gray-100">
+      <div class="container mx-auto px-6 text-center">
+        <div class="section-title mb-12">
+          <h1 class="text-5xl font-bold">Basics of <span class="text-red-500">Computer Vision Technology</span></h1>
+        </div>
+        <div class="content text-xl text-left leading-relaxed">
+          <h2 class="text-3xl font-semibold">1. What is Computer Vision?</h2>
+          <p class="mt-4">
+            <strong>Definition:</strong> Computer vision is a field of artificial intelligence that enables computers to interpret and make decisions based on visual data from the world.
+          </p>
+          <p class="mt-4">
+            <strong>Goal:</strong> The primary goal is to automate tasks that the human visual system can do, such as recognizing objects, understanding scenes, and making sense of visual information.
+          </p>
+
+          <h2 class="text-3xl font-semibold mt-10">2. How Does Computer Vision Work?</h2>
+          <ul class="list-disc list-inside mt-4 space-y-2">
+            <li>
+              <strong>Image Acquisition:</strong> The process begins with capturing images or video from cameras or sensors.
+            </li>
+            <li>
+              <strong>Preprocessing:</strong> Raw images are processed to enhance quality, including noise reduction, normalization, and contrast adjustment.
+            </li>
+            <li>
+              <strong>Feature Extraction:</strong> Identifying key features or patterns in the visual data, such as edges, textures, and shapes.
+            </li>
+            <li>
+              <strong>Object Detection and Recognition:</strong> Algorithms are used to detect and classify objects within the images.
+            </li>
+            <li>
+              <strong>Image Segmentation:</strong> Dividing an image into multiple segments to simplify analysis.
+            </li>
+            <li>
+              <strong>Machine Learning Models:</strong> Training models on large datasets to improve accuracy and performance in tasks like object recognition and scene understanding.
+            </li>
+          </ul>
+
+          <h2 class="text-3xl font-semibold mt-10">3. Key Technologies Involved in Computer Vision</h2>
+          <ul class="list-disc list-inside mt-4 space-y-2">
+            <li>
+              <strong>Deep Learning:</strong> Using neural networks, particularly convolutional neural networks (CNNs), to analyze visual data and learn from it.
+            </li>
+            <li>
+              <strong>Edge Detection Algorithms:</strong> Techniques like Canny and Sobel used to identify object boundaries.
+            </li>
+            <li>
+              <strong>Pattern Recognition:</strong> Identifying regularities and patterns in the data to classify images or detect objects.
+            </li>
+            <li>
+              <strong>Optical Character Recognition (OCR):</strong> Converting different types of documents, such as scanned paper documents, PDFs, or images captured by a digital camera, into editable and searchable data.
+            </li>
+            <li>
+              <strong>3D Vision:</strong> Reconstructing three-dimensional models from two-dimensional images.
+            </li>
+          </ul>
+
+          <h2 class="text-3xl font-semibold mt-10">Applications of Computer Vision in Retail</h2>
+          <ul class="list-disc list-inside mt-4 space-y-2">
+            <li>
+              <strong>Personalized Product Recommendations:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Behavior Analysis:</strong> Analyzing customer behavior and preferences in real-time to offer personalized product suggestions.
+                </li>
+                <li>
+                  <strong>Enhancing Customer Experience:</strong> Tailoring recommendations to individual shoppers based on their in-store interactions and purchase history.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Interactive Displays:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Engagement:</strong> Creating interactive product displays that respond to customer actions, providing detailed information and promotions.
+                </li>
+                <li>
+                  <strong>Augmented Reality (AR):</strong> Using AR to allow customers to visualize products in different settings or configurations.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Customer Analytics:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Foot Traffic Analysis:</strong> Monitoring customer movements within the store to optimize store layout and product placement.
+                </li>
+                <li>
+                  <strong>Heat Maps:</strong> Creating heat maps to visualize areas of high and low customer engagement, helping to identify popular and underperforming sections of the store.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Security and Loss Prevention:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Facial Recognition:</strong> Using facial recognition technology to identify and track individuals, enhancing security measures.
+                </li>
+                <li>
+                  <strong>Behavior Analysis:</strong> Detecting suspicious behavior through behavior analysis and alerting security personnel in real-time.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Inventory Management:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Automated Stock Counting:</strong> Using computer vision to automate inventory checks, reducing manual labor and errors.
+                </li>
+                <li>
+                  <strong>Shelf Monitoring:</strong> Ensuring products are always in stock and correctly placed, improving availability and sales.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Visual Merchandising:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Planogram Compliance:</strong> Ensuring that products are displayed according to the planned layout, enhancing visual merchandising efforts.
+                </li>
+                <li>
+                  <strong>A/B Testing:</strong> Testing different display setups to determine which arrangement drives more sales.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- End Customer Analytics Use Case Section -->
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-gray-800 text-white py-8">
+      <div class="container mx-auto px-6 text-center">
+        <div class="brand">
+          <h1 class="text-3xl font-bold"><span class="text-red-500">B-</span>Lead <span class="text-red-500">T</span>echnologies</h1>
+        </div>
+        <h2 class="mt-4">Your computer vision solution</h2>
+        <p class="mt-2">Copyright © 2024 B-Lead Technologies. All rights reserved</p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="app.js"></script>
+  </body>
+</html>

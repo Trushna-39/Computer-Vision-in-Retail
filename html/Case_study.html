@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="output.css">
+    <title>Web Design - B-Lead Technologies</title>
+  </head>
+
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+    <header id="header" class="fixed top-0 left-0 w-full z-50 transition-all duration-300">
+      <div class="header bg-gray-800 bg-opacity-90 w-full">
+        <div class="nav-bar flex items-center justify-between max-w-screen-xl mx-auto px-4 py-2">
+          <div class="brand">
+            <a href="../index.html" class="text-3xl font-bold text-white"><span class="text-red-500">B-</span>Lead <span
+                class="text-red-500">T</span>echnologies</a>
+          </div>
+          <div class="nav-list hidden md:flex items-center space-x-6">
+            <a href="../index.html#hero" class="text-white uppercase tracking-wide hover:text-red-500">Home</a>
+            <a href="../index.html#services" class="text-white uppercase tracking-wide hover:text-red-500">Services</a>
+            <a href="../index.html#projects" class="text-white uppercase tracking-wide hover:text-red-500">Applications</a>
+            <a href="../index.html#about" class="text-white uppercase tracking-wide hover:text-red-500">About</a>
+            <a href="../index.html#contact" class="text-white uppercase tracking-wide hover:text-red-500">Contact</a>
+          </div>
+          <div
+            class="hamburger md:hidden flex items-center justify-center w-12 h-12 border-4 border-white rounded-full relative cursor-pointer transform scale-75">
+            <div class="bar w-8 h-1 bg-white relative">
+              <div
+                class="bar-inner before:absolute before:content-[''] before:w-full before:h-full before:left-0 before:bg-white before:top-2 after:absolute after:content-[''] after:w-full after:h-full after:left-0 after:bg-white after:bottom-2">
+              </div>
+            </div>
+            <div class="hamburger-puls absolute inset-0 border-4 border-white rounded-full animate-pulse"></div>
+          </div>
+        </div>
+        <div
+          class="mobile-menu hidden md:hidden flex flex-col items-center justify-center w-full h-screen bg-gray-800 text-white">
+          <ul class="space-y-6 text-2xl">
+            <li><a href="../index.html#hero" class="block px-4 py-2 hover:text-red-500">Home</a></li>
+            <li><a href="../index.html#services" class="block px-4 py-2 hover:text-red-500">Services</a></li>
+            <li><a href="../index.html#projects" class="block px-4 py-2 hover:text-red-500">Applications</a></li>
+            <li><a href="../index.html#about" class="block px-4 py-2 hover:text-red-500">About</a></li>
+            <li><a href="../index.html#contact" class="block px-4 py-2 hover:text-red-500">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="py-16 bg-gray-100">
+      <div class="container mx-auto px-6 text-center">
+        <div class="section-title mb-12">
+          <h1 class="text-5xl font-bold">Case Studies: <span class="text-red-500">Success Stories from Retail Companies Implementing Computer Vision</span></h1>
+        </div>
+        <div class="content text-xl text-left leading-relaxed">
+          <h2 class="text-3xl font-semibold">Case Study 1: Amazon Go - Just Walk Out Technology</h2>
+          <p class="mt-4">
+            <strong>Overview:</strong> Amazon Go stores use advanced computer vision technology to create a checkout-free shopping experience.
+          </p>
+          <p class="mt-4">
+            <strong>Implementation:</strong>
+          </p>
+          <ul class="list-disc list-inside mt-4 space-y-2">
+            <li><strong>Cameras and Sensors:</strong> Cameras are placed throughout the store to track customer movements and product interactions.</li>
+            <li><strong>Computer Vision Algorithms:</strong> These algorithms identify when a customer picks up or puts back a product.</li>
+            <li><strong>Checkout-Free Experience:</strong> Customers simply walk out of the store with their items, and their Amazon account is automatically charged.</li>
+          </ul>
+          <p class="mt-4">
+            <strong>Outcomes:</strong>
+          </p>
+          <ul class="list-disc list-inside mt-4 space-y-2">
+            <li><strong>Customer Convenience:</strong> Shoppers enjoy a seamless, quick shopping experience without waiting in line.</li>
+            <li><strong>Operational Efficiency:</strong> Reduced need for cashiers and checkout lines, optimizing staff allocation.</li>
+            <li><strong>Data Insights:</strong> In-depth data on customer behavior and product preferences, enabling better inventory and marketing decisions.</li>
+          </ul>
+
+          <h2 class="text-3xl font-semibold mt-10">Case Study 2: Sephora - Virtual Artist and Augmented Reality Mirrors</h2>
+          <p class="mt-4">
+            <strong>Overview:</strong> Sephora uses computer vision and augmented reality (AR) to enhance the in-store beauty experience.
+          </p>
+          <p class="mt-4">
+            <strong>Implementation:</strong>
+          </p>
+          <ul class="list-disc list-inside mt-4 space-y-2">
+            <li><strong>Virtual Artist App:</strong> Customers can virtually try on makeup products using the Sephora app, which uses facial recognition to apply products to their image in real-time.</li>
+            <li><strong>AR Mirrors:</strong> In-store AR mirrors allow customers to see how different products look on their faces without physically applying them.</li>
+          </ul>
+          <p class="mt-4">
+            <strong>Outcomes:</strong>
+          </p>
+          <ul class="list-disc list-inside mt-4 space-y-2">
+            <li><strong>Enhanced Customer Engagement:</strong> Customers spend more time in the store and interact more deeply with products.</li>
+            <li><strong>Increased Sales:</strong> Virtual try-ons lead to higher conversion rates as customers can confidently choose products.</li>
+            <li><strong>Reduced Product Waste:</strong> Fewer testers and samples are used, reducing waste and costs.</li>
+          </ul>
+
+          <h2 class="text-3xl font-semibold mt-10">Case Study 3: Walmart - Inventory Management with Bossa Nova Robots</h2>
+          <p class="mt-4">
+            <strong>Overview:</strong> Walmart implemented Bossa Nova robots equipped with computer vision to automate inventory management.
+          </p>
+          <p class="mt-4">
+            <strong>Implementation:</strong>
+          </p>
+          <ul class="list-disc list-inside mt-4 space-y-2">
+            <li><strong>Robotic Scanning:</strong> Robots scan shelves to monitor stock levels, identify misplaced items, and check price labels.</li>
+            <li><strong>Real-Time Data:</strong> Inventory data is updated in real-time, providing accurate stock levels and alerts for restocking.</li>
+          </ul>
+          <p class="mt-4">
+            <strong>Outcomes:</strong>
+          </p>
+          <ul class="list-disc list-inside mt-4 space-y-2">
+            <li><strong>Improved Accuracy:</strong> Reduced human error in inventory counts and ensured shelves are consistently stocked.</li>
+            <li><strong>Labor Efficiency:</strong> Freed up employees to focus on customer service and other tasks.</li>
+            <li><strong>Sales Optimization:</strong> Ensured popular items are always in stock, improving customer satisfaction and sales.</li>
+          </ul>
+
+          <h2 class="text-3xl font-semibold mt-10">Case Study 4: Nike - Speed Shop in New York City</h2>
+          <p class="mt-4">
+            <strong>Overview:</strong> Nike's Speed Shop in NYC uses computer vision to offer personalized and efficient shopping experiences.
+          </p>
+          <p class="mt-4">
+            <strong>Implementation:</strong>
+          </p>
+          <ul class="list-disc list-inside mt-4 space-y-2">
+            <li><strong>Reserve and Pick-Up:</strong> Customers can reserve products online and pick them up in-store using lockers that are accessed via smartphone.</li>
+            <li><strong>In-Store Customization:</strong> Cameras and sensors track customer interactions and preferences, offering personalized product suggestions.</li>
+            <li><strong>Express Checkout:</strong> Self-checkout kiosks reduce wait times and improve the shopping experience.</li>
+          </ul>
+          <p class="mt-4">
+            <strong>Outcomes:</strong>
+          </p>
+          <ul class="list-disc list-inside mt-4 space-y-2">
+            <li><strong>Personalized Experience:</strong> Customers receive tailored recommendations based on their preferences and interactions.</li>
+            <li><strong>Reduced Wait Times:</strong> Efficient checkout process and quick access to reserved items enhance convenience.</li>
+            <li><strong>Data-Driven Insights:</strong> Detailed analytics on customer behavior help optimize store layout and inventory.</li>
+          </ul>
+
+          <h2 class="text-3xl font-semibold mt-10">Case Study 5: Zara - Automated Inventory Management and Customer Insights</h2>
+          <p class="mt-4">
+            <strong>Overview:</strong> Zara employs computer vision to streamline inventory management and gain insights into customer behavior.
+          </p>
+          <p class="mt-4">
+            <strong>Implementation:</strong>
+          </p>
+          <ul class="list-disc list-inside mt-4 space-y-2">
+            <li><strong>In-Store Cameras:</strong> Cameras track inventory levels and customer interactions with products.</li>
+            <li><strong>Data Integration:</strong> Real-time data is integrated with Zara's inventory management system to ensure accurate stock levels.</li>
+            <li><strong>Customer Insights:</strong> Analysis of customer movement and interactions to optimize product placement and store layout.</li>
+          </ul>
+          <p class="mt-4">
+            <strong>Outcomes:</strong>
+          </p>
+          <ul class="list-disc list-inside mt-4 space-y-2">
+            <li><strong>Inventory Accuracy:</strong> Ensured that popular items are in stock and available to customers.</li>
+            <li><strong>Operational Efficiency:</strong> Reduced the time employees spend on manual inventory checks.</li>
+            <li><strong>Enhanced Customer Experience:</strong> Optimized store layout based on customer behavior, leading to increased sales.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- End Case Studies Section -->
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-gray-800 text-white py-8">
+      <div class="container mx-auto px-6 text-center">
+        <div class="brand">
+          <h1 class="text-3xl font-bold"><span class="text-red-500">B-</span>Lead <span class="text-red-500">T</span>echnologies</h1>
+        </div>
+        <h2 class="mt-4">Your computer vision solution</h2>
+        <p class="mt-2">Copyright © 2024 B-Lead Technologies. All rights reserved</p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
