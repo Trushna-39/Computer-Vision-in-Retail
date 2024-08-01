@@ -22,3 +22,15 @@ Welcome to the Computer Vision in Retail Portal, a comprehensive resource design
    - Benefits
    - How it Works
    - Implementation Guide
+
+### Introduction
+What is Computer Vision?
+Computer vision is a field of artificial intelligence that enables computers to interpret and make decisions based on visual data from the world. The primary goal is to automate tasks that the human visual system can do, such as recognizing objects, understanding scenes, and making sense of visual information.
+
+### How Does Computer Vision Work?
+Image Acquisition: Capturing images or video from cameras or sensors.
+Preprocessing: Enhancing quality through noise reduction, normalization, and contrast adjustment.
+Feature Extraction: Identifying key features or patterns like edges, textures, and shapes.
+Object Detection and Recognition: Using algorithms to detect and classify objects.
+Image Segmentation: Dividing an image into segments to simplify analysis.
+Machine Learning Models: Training models on large datasets for tasks like object recognition. Example, Key Technologies, Deep Learning, Edge Detection Algorithms, Pattern Recognition, and Optical Character Recognition (OCR).
