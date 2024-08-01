@@ -1,180 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <title>Web Design - B-Lead Technologies</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
-  <link rel="stylesheet" href="output.css">
-  <title>Web Design - B-Lead Technologies</title>
-</head>
-
-<body class="bg-gray-100 text-gray-800">
-  <!-- Header -->
-  <header id="header" class="fixed top-0 left-0 w-full z-50 transition-all duration-300">
-    <div class="header bg-gray-800 bg-opacity-90 w-full">
-      <div class="nav-bar flex items-center justify-between max-w-screen-xl mx-auto px-4 py-2">
-        <div class="brand">
-          <a href="index.html" class="text-3xl font-bold text-white"><span class="text-red-500">B-</span>Lead <span
-              class="text-red-500">T</span>echnologies</a>
-        </div>
-        <div class="nav-list hidden md:flex items-center space-x-6">
-          <a href="index.html#hero" class="text-white uppercase tracking-wide hover:text-red-500">Home</a>
-          <a href="index.html#services" class="text-white uppercase tracking-wide hover:text-red-500">Services</a>
-          <a href="index.html#projects" class="text-white uppercase tracking-wide hover:text-red-500">Applications</a>
-          <a href="index.html#about" class="text-white uppercase tracking-wide hover:text-red-500">About</a>
-          <a href="index.html#contact" class="text-white uppercase tracking-wide hover:text-red-500">Contact</a>
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+    <header
+      id="header"
+      class="fixed top-0 left-0 w-full z-50 transition-all duration-300"
+    >
+      <div class="header bg-gray-800 bg-opacity-90 w-full">
+        <div
+          class="nav-bar flex items-center justify-between max-w-screen-xl mx-auto px-4 py-2"
+        >
+          <div class="brand">
+            <a href="index.html" class="text-3xl font-bold text-white"
+              ><span class="text-red-500">B-</span>Lead
+              <span class="text-red-500">T</span>echnologies</a
+            >
+          </div>
+          <div class="nav-list hidden md:flex items-center space-x-6">
+            <a
+              href="index.html#hero"
+              class="text-white uppercase tracking-wide hover:text-red-500"
+              >Home</a
+            >
+            <a
+              href="index.html#services"
+              class="text-white uppercase tracking-wide hover:text-red-500"
+              >Services</a
+            >
+            <a
+              href="index.html#projects"
+              class="text-white uppercase tracking-wide hover:text-red-500"
+              >Applications</a
+            >
+            <a
+              href="index.html#about"
+              class="text-white uppercase tracking-wide hover:text-red-500"
+              >About</a
+            >
+            <a
+              href="index.html#contact"
+              class="text-white uppercase tracking-wide hover:text-red-500"
+              >Contact</a
+            >
+          </div>
+          <div
+            class="hamburger md:hidden flex items-center justify-center w-12 h-12 border-4 border-white rounded-full relative cursor-pointer transform scale-75"
+          >
+            <div class="bar w-8 h-1 bg-white relative">
+              <div
+                class="bar-inner before:absolute before:content-[''] before:w-full before:h-full before:left-0 before:bg-white before:top-2 after:absolute after:content-[''] after:w-full after:h-full after:left-0 after:bg-white after:bottom-2"
+              ></div>
+            </div>
+            <div
+              class="hamburger-puls absolute inset-0 border-4 border-white rounded-full animate-pulse"
+            ></div>
+          </div>
         </div>
         <div
-          class="hamburger md:hidden flex items-center justify-center w-12 h-12 border-4 border-white rounded-full relative cursor-pointer transform scale-75">
-          <div class="bar w-8 h-1 bg-white relative">
-            <div
-              class="bar-inner before:absolute before:content-[''] before:w-full before:h-full before:left-0 before:bg-white before:top-2 after:absolute after:content-[''] after:w-full after:h-full after:left-0 after:bg-white after:bottom-2">
-            </div>
-          </div>
-          <div class="hamburger-puls absolute inset-0 border-4 border-white rounded-full animate-pulse"></div>
+          class="mobile-menu hidden md:hidden flex flex-col items-center justify-center w-full h-screen bg-gray-800 text-white"
+        >
+          <ul class="space-y-6 text-2xl">
+            <li>
+              <a
+                href="index.html#hero"
+                class="block px-4 py-2 hover:text-red-500"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="index.html#services"
+                class="block px-4 py-2 hover:text-red-500"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="index.html#projects"
+                class="block px-4 py-2 hover:text-red-500"
+                >Applications</a
+              >
+            </li>
+            <li>
+              <a
+                href="index.html#about"
+                class="block px-4 py-2 hover:text-red-500"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="index.html#contact"
+                class="block px-4 py-2 hover:text-red-500"
+                >Contact</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
-      <div
-        class="mobile-menu hidden md:hidden flex flex-col items-center justify-center w-full h-screen bg-gray-800 text-white">
-        <ul class="space-y-6 text-2xl">
-          <li><a href="index.html#hero" class="block px-4 py-2 hover:text-red-500">Home</a></li>
-          <li><a href="index.html#services" class="block px-4 py-2 hover:text-red-500">Services</a></li>
-          <li><a href="index.html#projects" class="block px-4 py-2 hover:text-red-500">Applications</a></li>
-          <li><a href="index.html#about" class="block px-4 py-2 hover:text-red-500">About</a></li>
-          <li><a href="index.html#contact" class="block px-4 py-2 hover:text-red-500">Contact</a></li>
-        </ul>
+    </header>
+    <!-- End Header -->
+
+    <!-- Customer Analytics Use Case Section -->
+    <section id="customer-analytics" class="py-16 bg-gray-100">
+      <div class="container mx-auto px-6 text-center">
+        <div class="section-title mb-12">
+          <h1 class="text-5xl font-bold">
+            Use Case: <span class="text-red-500">Customer Analytics</span>
+          </h1>
+        </div>
+        <div class="content text-xl text-left leading-relaxed">
+          <h2 class="text-3xl font-semibold">
+            Gathering Data on Customer Movements and Interactions Within the
+            Store to Optimize Layout and Product Placement
+          </h2>
+
+          <p class="mt-4">
+            <strong>Overview:</strong> Customer analytics involves using
+            computer vision to monitor and analyze how customers move through a
+            store and interact with products. This data helps retailers
+            understand shopping patterns, optimize store layouts, and make
+            informed decisions about product placement to enhance the customer
+            experience and boost sales.
+          </p>
+
+          <h2 class="text-3xl font-semibold mt-10">How It Works</h2>
+          <ul class="list-disc list-inside mt-4 space-y-2">
+            <li>
+              <strong>Data Collection:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Cameras and Sensors:</strong> Install high-resolution
+                  cameras and sensors at strategic locations throughout the
+                  store to capture customer movements and interactions.
+                </li>
+                <li>
+                  <strong>Real-Time Tracking:</strong> Use computer vision
+                  algorithms to track customer movements in real-time,
+                  identifying which aisles they visit, how long they spend in
+                  different sections, and their interactions with products.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Behavior Analysis:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Foot Traffic Analysis:</strong> Analyze the flow of
+                  customers through the store to identify high-traffic areas and
+                  bottlenecks.
+                </li>
+                <li>
+                  <strong>Dwell Time Measurement:</strong> Measure how long
+                  customers spend in specific areas or at particular displays to
+                  gauge interest levels.
+                </li>
+                <li>
+                  <strong>Interaction Tracking:</strong> Monitor how customers
+                  interact with products, including picking up items, reading
+                  labels, or returning products to the shelf.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Heat Maps and Visualizations:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Heat Maps:</strong> Generate heat maps to visually
+                  represent areas of high and low customer activity. This helps
+                  identify popular and underperforming sections of the store.
+                </li>
+                <li>
+                  <strong>Path Analysis:</strong> Create visualizations of
+                  common customer paths to understand how they navigate through
+                  the store.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Data Integration and Analysis:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Sales Data Correlation:</strong> Integrate customer
+                  movement data with sales data to identify correlations between
+                  foot traffic and sales performance.
+                </li>
+                <li>
+                  <strong>Predictive Analytics:</strong> Use machine learning
+                  models to predict future customer behavior based on historical
+                  data.
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <h2 class="text-3xl font-semibold mt-10">Benefits</h2>
+          <ul class="list-disc list-inside mt-4 space-y-2">
+            <li>
+              <strong>Optimized Store Layout:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Maximize Space Utilization:</strong> Identify
+                  underutilized areas and optimize the store layout to make the
+                  best use of available space.
+                </li>
+                <li>
+                  <strong>Improved Navigation:</strong> Design store layouts
+                  that facilitate easy navigation and enhance the overall
+                  shopping experience.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Enhanced Product Placement:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Strategic Placement:</strong> Place high-margin and
+                  popular products in high-traffic areas to increase visibility
+                  and sales.
+                </li>
+                <li>
+                  <strong>Promotional Effectiveness:</strong> Determine the best
+                  locations for promotional displays to maximize their impact.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Increased Sales and Customer Satisfaction:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Targeted Marketing:</strong> Use customer behavior
+                  data to create targeted marketing campaigns and personalized
+                  promotions.
+                </li>
+                <li>
+                  <strong>Reduced Friction:</strong> Eliminate bottlenecks and
+                  improve the flow of customers through the store, leading to a
+                  more pleasant shopping experience.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Data-Driven Decision Making:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Inventory Management:</strong> Use insights from
+                  customer analytics to manage inventory more effectively,
+                  ensuring popular products are always in stock.
+                </li>
+                <li>
+                  <strong>Trend Analysis:</strong> Identify emerging trends and
+                  adjust product offerings to meet customer demand.
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <h2 class="text-3xl font-semibold mt-10">Implementation Steps</h2>
+          <ul class="list-disc list-inside mt-4 space-y-2">
+            <li>
+              <strong>Install Hardware:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Cameras and Sensors:</strong> Place cameras and
+                  sensors at key locations, including entrances, aisles, and
+                  checkout areas.
+                </li>
+                <li>
+                  <strong>Connectivity:</strong> Ensure reliable network
+                  connections for real-time data transmission and processing.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Develop and Train Models:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Data Annotation:</strong> Annotate collected data to
+                  train machine learning models for accurate customer tracking
+                  and behavior analysis.
+                </li>
+                <li>
+                  <strong>Model Training:</strong> Use annotated data to train
+                  models that can recognize and analyze customer movements and
+                  interactions.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Integrate Systems:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Database Integration:</strong> Connect the analytics
+                  system with existing databases to combine movement data with
+                  sales and inventory information.
+                </li>
+                <li>
+                  <strong>Real-Time Processing:</strong> Implement systems for
+                  real-time data processing to provide immediate insights.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Deploy and Test:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Pilot Testing:</strong> Conduct pilot tests in select
+                  stores to validate the system's accuracy and effectiveness.
+                </li>
+                <li>
+                  <strong>Calibration:</strong> Fine-tune camera angles, sensor
+                  placements, and algorithms to ensure optimal performance.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Data Analysis and Visualization:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Heat Maps and Path Analysis:</strong> Generate
+                  visualizations to identify high-traffic areas and common
+                  customer paths.
+                </li>
+                <li>
+                  <strong>Sales Correlation:</strong> Analyze the relationship
+                  between customer movements and sales data to gain actionable
+                  insights.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Continuous Improvement:</strong>
+              <ul class="list-disc list-inside ml-6 mt-2">
+                <li>
+                  <strong>Monitor Performance:</strong> Continuously monitor the
+                  system's performance and gather feedback from store staff and
+                  customers.
+                </li>
+                <li>
+                  <strong>Iterative Enhancements:</strong> Regularly update and
+                  improve the system based on new data and insights to keep the
+                  store layout and product placement optimized.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </header>
-  <!-- End Header -->
+    </section>
+    <!-- End Customer Analytics Use Case Section -->
 
-
-  <!-- Customer Analytics Use Case Section -->
-  <section id="customer-analytics" class="py-16 bg-gray-100">
-    <div class="container mx-auto px-6 text-center">
-      <div class="section-title mb-12">
-        <h1 class="text-5xl font-bold">Use Case: <span class="text-red-500">Customer Analytics</span></h1>
+    <!-- Footer -->
+    <footer id="footer" class="bg-gray-800 text-white py-8">
+      <div class="container mx-auto px-6 text-center">
+        <div class="brand">
+          <h1 class="text-3xl font-bold">
+            <span class="text-red-500">B-</span>Lead
+            <span class="text-red-500">T</span>echnologies
+          </h1>
+        </div>
+        <h2 class="mt-4">Your computer vision solution</h2>
+        <p class="mt-2">
+          Copyright © 2024 B-Lead Technologies. All rights reserved
+        </p>
       </div>
-      <div class="content text-xl text-left leading-relaxed">
-        <h2 class="text-3xl font-semibold">Gathering Data on Customer Movements and Interactions Within the Store to Optimize Layout and Product Placement</h2>
+    </footer>
+    <!-- End Footer -->
 
-        <p class="mt-4"><strong>Overview:</strong> Customer analytics involves using computer vision to monitor and analyze how customers move through a store and interact with products. This data helps retailers understand shopping patterns, optimize store layouts, and make informed decisions about product placement to enhance the customer experience and boost sales.</p>
-
-        <h2 class="text-3xl font-semibold mt-10">How It Works</h2>
-        <ul class="list-disc list-inside mt-4 space-y-2">
-          <li><strong>Data Collection:</strong> 
-            <ul class="list-disc list-inside ml-6 mt-2">
-              <li><strong>Cameras and Sensors:</strong> Install high-resolution cameras and sensors at strategic locations throughout the store to capture customer movements and interactions.</li>
-              <li><strong>Real-Time Tracking:</strong> Use computer vision algorithms to track customer movements in real-time, identifying which aisles they visit, how long they spend in different sections, and their interactions with products.</li>
-            </ul>
-          </li>
-          <li><strong>Behavior Analysis:</strong>
-            <ul class="list-disc list-inside ml-6 mt-2">
-              <li><strong>Foot Traffic Analysis:</strong> Analyze the flow of customers through the store to identify high-traffic areas and bottlenecks.</li>
-              <li><strong>Dwell Time Measurement:</strong> Measure how long customers spend in specific areas or at particular displays to gauge interest levels.</li>
-              <li><strong>Interaction Tracking:</strong> Monitor how customers interact with products, including picking up items, reading labels, or returning products to the shelf.</li>
-            </ul>
-          </li>
-          <li><strong>Heat Maps and Visualizations:</strong>
-            <ul class="list-disc list-inside ml-6 mt-2">
-              <li><strong>Heat Maps:</strong> Generate heat maps to visually represent areas of high and low customer activity. This helps identify popular and underperforming sections of the store.</li>
-              <li><strong>Path Analysis:</strong> Create visualizations of common customer paths to understand how they navigate through the store.</li>
-            </ul>
-          </li>
-          <li><strong>Data Integration and Analysis:</strong>
-            <ul class="list-disc list-inside ml-6 mt-2">
-              <li><strong>Sales Data Correlation:</strong> Integrate customer movement data with sales data to identify correlations between foot traffic and sales performance.</li>
-              <li><strong>Predictive Analytics:</strong> Use machine learning models to predict future customer behavior based on historical data.</li>
-            </ul>
-          </li>
-        </ul>
-
-        <h2 class="text-3xl font-semibold mt-10">Benefits</h2>
-        <ul class="list-disc list-inside mt-4 space-y-2">
-          <li><strong>Optimized Store Layout:</strong>
-            <ul class="list-disc list-inside ml-6 mt-2">
-              <li><strong>Maximize Space Utilization:</strong> Identify underutilized areas and optimize the store layout to make the best use of available space.</li>
-              <li><strong>Improved Navigation:</strong> Design store layouts that facilitate easy navigation and enhance the overall shopping experience.</li>
-            </ul>
-          </li>
-          <li><strong>Enhanced Product Placement:</strong>
-            <ul class="list-disc list-inside ml-6 mt-2">
-              <li><strong>Strategic Placement:</strong> Place high-margin and popular products in high-traffic areas to increase visibility and sales.</li>
-              <li><strong>Promotional Effectiveness:</strong> Determine the best locations for promotional displays to maximize their impact.</li>
-            </ul>
-          </li>
-          <li><strong>Increased Sales and Customer Satisfaction:</strong>
-            <ul class="list-disc list-inside ml-6 mt-2">
-              <li><strong>Targeted Marketing:</strong> Use customer behavior data to create targeted marketing campaigns and personalized promotions.</li>
-              <li><strong>Reduced Friction:</strong> Eliminate bottlenecks and improve the flow of customers through the store, leading to a more pleasant shopping experience.</li>
-            </ul>
-          </li>
-          <li><strong>Data-Driven Decision Making:</strong>
-            <ul class="list-disc list-inside ml-6 mt-2">
-              <li><strong>Inventory Management:</strong> Use insights from customer analytics to manage inventory more effectively, ensuring popular products are always in stock.</li>
-              <li><strong>Trend Analysis:</strong> Identify emerging trends and adjust product offerings to meet customer demand.</li>
-            </ul>
-          </li>
-        </ul>
-
-        <h2 class="text-3xl font-semibold mt-10">Implementation Steps</h2>
-        <ul class="list-disc list-inside mt-4 space-y-2">
-          <li><strong>Install Hardware:</strong>
-            <ul class="list-disc list-inside ml-6 mt-2">
-              <li><strong>Cameras and Sensors:</strong> Place cameras and sensors at key locations, including entrances, aisles, and checkout areas.</li>
-              <li><strong>Connectivity:</strong> Ensure reliable network connections for real-time data transmission and processing.</li>
-            </ul>
-          </li>
-          <li><strong>Develop and Train Models:</strong>
-            <ul class="list-disc list-inside ml-6 mt-2">
-              <li><strong>Data Annotation:</strong> Annotate collected data to train machine learning models for accurate customer tracking and behavior analysis.</li>
-              <li><strong>Model Training:</strong> Use annotated data to train models that can recognize and analyze customer movements and interactions.</li>
-            </ul>
-          </li>
-          <li><strong>Integrate Systems:</strong>
-            <ul class="list-disc list-inside ml-6 mt-2">
-              <li><strong>Database Integration:</strong> Connect the analytics system with existing databases to combine movement data with sales and inventory information.</li>
-              <li><strong>Real-Time Processing:</strong> Implement systems for real-time data processing to provide immediate insights.</li>
-            </ul>
-          </li>
-          <li><strong>Deploy and Test:</strong>
-            <ul class="list-disc list-inside ml-6 mt-2">
-              <li><strong>Pilot Testing:</strong> Conduct pilot tests in select stores to validate the system's accuracy and effectiveness.</li>
-              <li><strong>Calibration:</strong> Fine-tune camera angles, sensor placements, and algorithms to ensure optimal performance.</li>
-            </ul>
-          </li>
-          <li><strong>Data Analysis and Visualization:</strong>
-            <ul class="list-disc list-inside ml-6 mt-2">
-              <li><strong>Heat Maps and Path Analysis:</strong> Generate visualizations to identify high-traffic areas and common customer paths.</li>
-              <li><strong>Sales Correlation:</strong> Analyze the relationship between customer movements and sales data to gain actionable insights.</li>
-            </ul>
-          </li>
-          <li><strong>Continuous Improvement:</strong>
-            <ul class="list-disc list-inside ml-6 mt-2">
-              <li><strong>Monitor Performance:</strong> Continuously monitor the system's performance and gather feedback from store staff and customers.</li>
-              <li><strong>Iterative Enhancements:</strong> Regularly update and improve the system based on new data and insights to keep the store layout and product placement optimized.</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <!-- End Customer Analytics Use Case Section -->
-
-  <!-- Footer -->
-  <footer id="footer" class="bg-gray-800 text-white py-8">
-    <div class="container mx-auto px-6 text-center">
-      <div class="brand">
-        <h1 class="text-3xl font-bold"><span class="text-red-500">B-</span>Lead <span class="text-red-500">T</span>echnologies</h1>
-      </div>
-      <h2 class="mt-4">Your computer vision solution</h2>
-      <p class="mt-2">Copyright © 2024 B-Lead Technologies. All rights reserved</p>
-    </div>
-  </footer>
-  <!-- End Footer -->
-
-  <script src="app.js"></script>
-</body>
-
+    <script src="app.js"></script>
+  </body>
 </html>
