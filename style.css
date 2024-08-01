@@ -291,6 +291,7 @@ p {
   flex-basis: 80%;
   display: flex;
   align-items: flex-start;
+  height: 560px;
   justify-content: center;
   flex-direction: column;
   padding: 30px;
@@ -314,8 +315,8 @@ p {
   z-index: -1;
 }
 #services .service-bottom .icon {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   margin-bottom: 20px;
 }
 #services .service-item h2 {
